@@ -3,7 +3,7 @@ const resp = document.querySelector("h4")
 
 //ouvinte
 
-fmr.addEventListener("submit", (e) =>{
+frm.addEventListener("submit", (e) =>{
     e.preventDefault()
 
     const pessoas = Number(frm.inNumero.value)
